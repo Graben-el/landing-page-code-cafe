@@ -12,9 +12,13 @@
 }
 
 @media (max-width: 767.98px) {
+    .cabecalho .titulo {
+        font-size: 2.5rem;
+    }
+    
     .contato {
         background-image: none;
-        border-color: #D3AE71;
+        background-color: #D3AE71;
     }
     
     .contato .texto {
@@ -32,6 +36,10 @@
 }
 
 @media (max-width: 719.98px) {
+    .cabecalho .titulo {
+        font-size: 2.5rem;
+    }
+
     .ladrilho .grande {
         width: 100%;
     }
@@ -75,17 +83,21 @@
     }
 }
 
-@media (max-width: 424.98px) {
-    
+@media (max-width: 494.98px) {
+    .cabecalho {
+        padding: 40px;
+    }
     .cabecalho .logo {
         display: block;
         margin: 0 auto;
     }
 
-    .cabecalho nav {
+    .cabecalho .menu {
+        display: block;
         position: static;
         text-align: center;
         width: 100%;
+        margin-top: 50px;
     }
 
     .cabecalho .links-menu  {
@@ -95,9 +107,10 @@
     .cabecalho .links-menu a {
         width: 100%;
         display: block;
+        font-size: 2.5rem;
     }
 
-    .painel h2 {
+    .painel .titulo {
         font-size: 2.5rem;
     }
 
@@ -107,6 +120,11 @@
 
     .secao-com-texto.onde-estamos p {
         font-size: 2rem;
+    }
+
+    .rodape {
+        background-image: none;
+        background-color: #000;
     }
 }
 

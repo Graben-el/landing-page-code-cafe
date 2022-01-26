@@ -13,23 +13,24 @@ body {
 .cabecalho {
     position: relative;
     background-color: #fff;
+    padding: 30px;
 }
 
 .cabecalho .logo {
     background: url(../images/logo.jpg) center center no-repeat;
-    font-size: 0;
     display: inline-block;
-    margin: 25px;
     width: 85px;
     height: 85px;
 }
 
-.menu {
-    margin-right: 25px;
+.cabecalho .logo h1 {
+    font-size: 0;
+}
+
+.cabecalho .menu {
     display: inline-block;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-top: 30px;
     right: 0;
 }
 
