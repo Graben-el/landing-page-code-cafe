@@ -1,0 +1,202 @@
+html {
+    background-color: #180A05;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.cabecalho {
+    position: relative;
+    background-color: #fff;
+}
+
+.cabecalho .logo {
+    background: url(../images/logo.jpg) center center no-repeat;
+    font-size: 0;
+    display: inline-block;
+    margin: 25px;
+    width: 85px;
+    height: 85px;
+}
+
+.menu {
+    margin-right: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.links-menu {
+    display: inline;
+    padding: 20px;
+}
+
+
+.links-menu a:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+
+
+
+
+.painel {
+    height: 600px;
+    background: url(../images/painel.jpg) center center no-repeat;
+}
+
+.painel .titulo {
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    font-size: 3.75em;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.secao-com-texto {
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+    font-size: 18px;
+    width: 700px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p {
+    font-size: 28px;
+    width: 480px;
+}
+
+.ladrilho div {
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno.grao {
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno {
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+.contato {
+    height: 600px;
+    background: url(../images/fundo-contato.jpg) center center no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+.contato h2 {
+    font-size: 2.81em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address {
+    font-size: 1.56em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contato .texto {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+
+
+
+.rodape {
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: white;
+}
+
+.rodape ul li a:hover {
+    font-weight: bold;
+}
+
+.rodape .copyright {
+    color: white;
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo {
+    margin-top: 40px;
+}
